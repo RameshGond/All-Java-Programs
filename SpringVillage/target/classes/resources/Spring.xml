@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean" />
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean1">
+		<constructor-arg value="Machagondanahalli"></constructor-arg>
+		<constructor-arg value="450"></constructor-arg>
+		<constructor-arg value="1200D"></constructor-arg>
+		<constructor-arg value="true"></constructor-arg>
+		<constructor-arg value="Kadur"></constructor-arg>
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean2">
+		<constructor-arg value="1000"></constructor-arg>
+		<constructor-arg value="Gonesomenahalli"></constructor-arg>
+		<constructor-arg value="3500D"></constructor-arg>
+		<constructor-arg value="true"></constructor-arg>
+		<constructor-arg value="Belur"></constructor-arg>
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean3">
+		<constructor-arg value="2000D"></constructor-arg>
+		<constructor-arg value="700"></constructor-arg>
+		<constructor-arg value="Aldhur"></constructor-arg>
+		<constructor-arg value="true"></constructor-arg>
+		<constructor-arg value="Chikkamagalur"></constructor-arg>
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean4">
+		<constructor-arg value="true"></constructor-arg>
+		<constructor-arg value="1000D"></constructor-arg>
+		<constructor-arg value="4000"></constructor-arg>
+		<constructor-arg value="Kolagundha"></constructor-arg>
+		<constructor-arg value="Arsikere"></constructor-arg>
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.VillageBean" id="villageBean5">
+		<constructor-arg value="Hassan"></constructor-arg>
+		<constructor-arg value="true"></constructor-arg>
+		<constructor-arg value="500D"></constructor-arg>
+		<constructor-arg value="100"></constructor-arg>
+		<constructor-arg value="Ballenahalli"></constructor-arg>
+	</bean>
+
+
+</beans>

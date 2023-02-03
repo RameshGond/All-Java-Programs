@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean class="com.xworkz.fw.beans.BrainBean" />
+	<bean class="com.xworkz.fw.beans.HeartBean" />
+	<bean class="com.xworkz.fw.beans.KidneyBean" />
+	<bean class="com.xworkz.fw.beans.LungsBean" />
+	<bean class="com.xworkz.fw.beans.TongueBean" />
+	<bean class="com.xworkz.fw.beans.IntenstineBean" />
+	<bean class="com.xworkz.fw.beans.LiverBean" />
+	<bean class="com.xworkz.fw.beans.SkinBean" />
+	<bean class="com.xworkz.fw.beans.LegBean" />
+	<bean class="com.xworkz.fw.beans.HandBean" />
+	<bean class="com.xworkz.fw.beans.NoseBean" />
+	<bean class="com.xworkz.fw.beans.MouthBean" />
+	<bean class="com.xworkz.fw.beans.EyesBean" />
+	<bean class="com.xworkz.fw.beans.EarBean" />
+	<bean class="com.xworkz.fw.beans.TeethBean" />
+	<bean class="com.xworkz.fw.beans.HairBean" />
+	<bean class="com.xworkz.fw.beans.FingersBean" />
+	<bean class="com.xworkz.fw.beans.ElbowBean" />
+	<bean class="com.xworkz.fw.beans.SkeletonBean" />
+	<bean class="com.xworkz.fw.beans.ToesBean" />
+	
+
+</beans>

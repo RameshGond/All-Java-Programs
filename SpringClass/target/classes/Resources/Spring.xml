@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean" />
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean1">
+		<constructor-arg value="Jukkre" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean2">
+		<constructor-arg value="2000D" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean3">
+		<constructor-arg value="Jukkre" />
+		<constructor-arg value="Gray" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean4">
+		<constructor-arg value="4000D" />
+		<constructor-arg value="Ritmo" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean5">
+		<constructor-arg value="LWVAX" />
+		<constructor-arg value="5000D" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean6">
+		<constructor-arg value="GEERTOP" />
+		<constructor-arg value="Orang" />
+		<constructor-arg value="6000D" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean7">
+		<constructor-arg value="5500D" />
+		<constructor-arg value="CBEX" />
+		<constructor-arg value="Green" />
+	</bean>
+
+	<bean class="com.xworkz.fw.beans.TentBean"
+		id="tentBean8">
+		<constructor-arg value="FWQPRA" />
+		<constructor-arg value="7000D" />
+		<constructor-arg value="FWQPRA" />
+
+</bean>
+
+</beans>
